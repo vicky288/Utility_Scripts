@@ -20,5 +20,5 @@ for filename in glob.iglob(os.path.join(folder, '*.ps')):
     os.rename(filename, filename[:-3] + '')
 for filename in glob.iglob(os.path.join(folder, '*.js')):
     os.rename(filename, filename[:-3] + '')
-for filename in glob.iglob(os.path.join(folder, '*.js')):
+for filename in glob.iglob(os.path.join(folder, '*.msi')):
     os.rename(filename, filename[:-3] + '')    
