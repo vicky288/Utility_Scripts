@@ -1,7 +1,6 @@
 import os
 from os import listdir, getcwd
 
-#path = "C:\\Users\\bhpradha\\Desktop\\scripts\\deleteFilesFromAList"
 path = getcwd()
 os.chdir(path)
 flist = open('i_list_delete_files.txt')
